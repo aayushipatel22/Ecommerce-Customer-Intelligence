@@ -1,0 +1,34 @@
+pandas
+requests
+python-dotenv
+praw
+newsapi-python
+
+
+
+
+
+
+
+
+
+# ecommerce-customer-intelligence/
+# │
+# ├── collection/
+# │   ├── fetch_products.py👍
+# │   ├── fetch_news.py👍
+# │   ├── fetch_comments.py👍
+# │   └── fetch_reviews.py
+# │
+# ├── data/
+# │   ├── raw/
+# │   ├── cleaned/
+# │   └── processed/
+# │
+# ├── utils/
+# │   ├── config.py 👍
+# │   └── helper.py 👍
+# │
+# ├── requirements.txt 👍
+# ├── .env 👍
+# └── main.py
