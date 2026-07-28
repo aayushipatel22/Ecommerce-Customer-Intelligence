@@ -4,8 +4,10 @@ python-dotenv
 praw
 newsapi-python
 
-
-
+#sentiment
+transformers
+torch
+tqdm
 
 
 
@@ -54,24 +56,3 @@ newsapi-python
 # git add .
 # git commit -m "Meaningful commit message"
 # git push
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
