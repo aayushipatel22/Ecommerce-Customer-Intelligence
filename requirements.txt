@@ -18,7 +18,7 @@ newsapi-python
 # │   ├── fetch_products.py👍
 # │   ├── fetch_news.py👍
 # │   ├── fetch_comments.py👍
-# │   └── fetch_reviews.py
+# │   └── fetch_reviews.py 👍
 # │
 # ├── data/
 # │   ├── raw/
@@ -31,4 +31,47 @@ newsapi-python
 # │
 # ├── requirements.txt 👍
 # ├── .env 👍
-# └── main.py
+# └── main.py 👍
+
+
+
+
+# etl/
+# │
+# ├── clean_products.py👍
+# ├── clean_news.py👍
+# ├── clean_comments.py👍
+# ├── clean_reviews.py👍
+# ├── feature_engineering.py👍
+# └── merge_data.py👍
+
+
+
+
+
+# Github steps:
+# git status
+# git add .
+# git commit -m "Meaningful commit message"
+# git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
