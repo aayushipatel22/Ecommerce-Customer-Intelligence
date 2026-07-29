@@ -4,48 +4,16 @@ python-dotenv
 praw
 newsapi-python
 
-#sentiment
+#for sentiment analysis
 transformers
 torch
 tqdm
 
+#for embeddings
+sentence-transformers
 
 
 
-
-
-# ecommerce-customer-intelligence/
-# │
-# ├── collection/
-# │   ├── fetch_products.py👍
-# │   ├── fetch_news.py👍
-# │   ├── fetch_comments.py👍
-# │   └── fetch_reviews.py 👍
-# │
-# ├── data/
-# │   ├── raw/
-# │   ├── cleaned/
-# │   └── processed/
-# │
-# ├── utils/
-# │   ├── config.py 👍
-# │   └── helper.py 👍
-# │
-# ├── requirements.txt 👍
-# ├── .env 👍
-# └── main.py 👍
-
-
-
-
-# etl/
-# │
-# ├── clean_products.py👍
-# ├── clean_news.py👍
-# ├── clean_comments.py👍
-# ├── clean_reviews.py👍
-# ├── feature_engineering.py👍
-# └── merge_data.py👍
 
 
 
