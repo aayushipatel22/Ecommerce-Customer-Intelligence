@@ -15,10 +15,17 @@ sentence-transformers
 #for qdrant db
 qdrant-client
 
+#for elasticsearch db
+elasticsearch
 
 
-
-
+# elasticsearch_db/
+# │
+# ├── elastic_client.py
+# ├── create_index.py
+# ├── upload_documents.py
+# ├── search_documents.py
+# └── run_elasticsearch.py
 
 
 # Github steps:

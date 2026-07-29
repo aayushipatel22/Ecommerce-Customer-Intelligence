@@ -10,7 +10,6 @@ def search(query):
     # Convert query into embedding vector
     query_vector = embedding_model.encode(query).tolist()
 
-
     results = client.query_points(
         collection_name=COLLECTION_NAME,
         query=query_vector,
@@ -37,6 +36,7 @@ if __name__ == "__main__":
 
         search(query)
 
+# D:\Data\Documents\Ecomm_Cust_intelligence_Project\venv\Scripts\python.exe -m qdrant_db.search_vectors
 
 
 # Suppose the user asks:
