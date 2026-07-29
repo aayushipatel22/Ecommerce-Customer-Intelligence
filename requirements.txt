@@ -12,6 +12,8 @@ tqdm
 #for embeddings
 sentence-transformers
 
+#for qdrant db
+qdrant-client
 
 
 

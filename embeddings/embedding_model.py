@@ -11,7 +11,8 @@ print("Loading Embedding Model...")
 
 # loads a pretrained model
 embedding_model = SentenceTransformer(
-    "all-MiniLM-L6-v2" #This model was already trained by researchers at Microsoft using millions of sentences
+    "all-MiniLM-L6-v2", #This model was already trained by researchers at Microsoft using millions of sentences
+    local_files_only=True
 )
 
 print("Embedding Model Loaded Successfully!")

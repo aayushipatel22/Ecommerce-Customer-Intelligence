@@ -1,15 +1,23 @@
-import pickle
+# import pickle
 
-with open("data/processed/embedded_dataset.pkl", "rb") as f:       #data/processed/embedded_dataset.pkl
-    data = pickle.load(f)
+# with open("data/processed/embedded_dataset.pkl", "rb") as f:       #data/processed/embedded_dataset.pkl
+#     data = pickle.load(f)
 
-print(type(data))
+# print(type(data))
 
-if hasattr(data, "head"):
-    print(data.head())
-else:
-    print(data)
+# if hasattr(data, "head"):
+#     print(data.head())
+# else:
+#     print(data)
 
+
+import pandas as pd
+
+df = pd.read_pickle("data/processed/embedded_dataset.pkl")
+
+print(df.shape)
+print(df.columns)
+print(len(df))
 
 
 # Output:-----
