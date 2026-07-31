@@ -87,3 +87,44 @@
 # )
 
 # print(response)
+
+
+
+
+
+
+# import os
+# from dotenv import load_dotenv
+# from google import genai
+
+# load_dotenv()
+
+# client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+# for model in client.models.list():
+#     print(model.name)
+
+
+
+
+
+
+
+
+
+
+# import os
+# from dotenv import load_dotenv
+# from langchain_google_genai import ChatGoogleGenerativeAI
+
+# load_dotenv()
+
+# llm = ChatGoogleGenerativeAI(
+#     model="gemini-flash-latest",
+#     google_api_key=os.getenv("GEMINI_API_KEY"),
+#     temperature=0.3,
+# )
+
+# response = llm.invoke("Hello! Tell me your name.")
+
+# print(response.content)

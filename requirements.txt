@@ -18,18 +18,25 @@ qdrant-client
 #for elasticsearch db
 elasticsearch
 
-
-# elasticsearch_db/
-# │
-# ├── elastic_client.py
-# ├── create_index.py
-# ├── upload_documents.py
-# ├── search_documents.py
-# └── run_elasticsearch.py
-
+#for LangGraph + LLM
+langgraph
+langchain
+langchain-core
+langchain-google-genai
 
 # Github steps:
 # git status
 # git add .
 # git commit -m "Meaningful commit message"
 # git push
+
+
+
+# docker start zen_thompson
+# docker start elasticsearch
+# docker ps
+# http://localhost:6333/dashboard
+
+# docker rename zen_thompson qdrant
+# docker start qdrant
+# docker start elasticsearch
